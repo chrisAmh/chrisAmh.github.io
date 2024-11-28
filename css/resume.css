@@ -1,0 +1,111 @@
+/* General container styles */
+.cv-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .cv-header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .cv-header h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .cv-header p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Section styles */
+  .cv-sections {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Column styles */
+  .cv-column {
+    flex: 1 1 50%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .cv-column {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Section block styles */
+  .cv-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cv-section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  .cv-section p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* List styles */
+  .cv-section ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    list-style-type: disc;
+  }
+  
+  .cv-section li {
+    margin-bottom: 8px;
+  }
+  
+  /* Technical skills list */
+  .cv-section ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .cv-section ul.skills-list li {
+    margin: 0;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  /* Link styles */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
