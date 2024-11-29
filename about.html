@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Christian's Portfolio</title>
+    <title>About Me - Christian's Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS for the '3 Col Portfolio' Template -->
-    <link href="css/3-col-portfolio.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+  <style>
+          .page-header {
+        margin-top: 50px;
+        text-align: center;
+        color: #0077cc;
+      }
+
+  </style>
   </head>
 
   <body>
-
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -26,117 +30,64 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"> My Projects</a>
+          <a class="navbar-brand" href="index.html">Home</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            <li><a href="projects.html">My Projects</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
+        </div>
+      </div>
     </nav>
 
     <div class="container">
-
       <div class="row">
-
         <div class="col-lg-12">
-          <h1 class="page-header"> About Me <small></small></h1>
+          <h1 class="text-center page-header"></h1>
+          <h1 class="page-header text-center">About Me</h1>
         </div>
-
       </div>
 
       <div class="row">
-
-        <div class="col-md-8 portfolio-item">
-            <p>
-                I’m Christian Amoah, a researcher committed to addressing the unpredictability of Earth's climate systems and their profound impacts on lives and infrastructure.
-                My work centers on developing proactive, data-driven tools to anticipate and mitigate critical climate risks, particularly urban floods and water resource challenges.
-                My academic journey began with a Civil Engineering degree at Kwame Nkrumah University of Science and Technology, where I explored the intersection of engineering, hydrology, and environmental data science. 
-                Early projects, such as streamflow modeling and GIS-based flood mapping for the Sisa Catchment, sparked my passion for integrating data science with traditional water management approaches.
-                These experiences instilled in me a strong desire to advance research that blends computational tools with practical solutions to tackle complex climate issues.
-               
-            </p>
-
-            <p>
-                My research interests are diverse but interconnected, focusing on hydrological modeling and climate risk, where I aim to improve flood resilience.
-                I am also passionate about GeoAI and machine learning, applying these cutting-edge techniques to forecast urban floods and inform infrastructure planning. 
-                Currently, I am participating in the INUNDATA project on urban flash flood prediction, and also comprises building machine learning models to identify historical flood events using CHIRPS precipitation data and earth observation imagery. 
-                This work is helping to create a comprehensive flood record that can enhance future forecasting and mitigation strategies. 
-            </p>
-            <p>
-                Beyond research, I find joy in music and web development. Playing the guitar and keyboard-piano allows me to explore diverse genres and express creativity,
-                while my interest in web development enables me to design and build interactive, functional web applications.
-                The driving force behind my work is a belief in the power of integrating innovative computational tools with collaborative, practical solutions to mitigate climate risks. 
-                My ultimate goal is to pioneer adaptive strategies that enhance flood resilience and foster sustainable development. 
-                Through my research and projects, I strive to bridge the gap between climate variability and decision-making, contributing to a safer and more sustainable future. 
-                
-                Feel free to explore my repositories to learn more about the work I am passionate about!
-            </p>
+        <div class="col-md-4">
+          <img src="images/christian.jpg" alt="Christian Amoah" class="img-responsive img-rounded">
         </div>
-
-
-
-      </div>
-
-      <hr>
-
-      <div class="row text-center">
-        
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="index.html">&laquo;</a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="resume.html">&raquo;</a></li>
-          </ul>        
+        <div class="col-md-8">
+          <p>
+            I’m <strong>Christian Amoah</strong>, a researcher dedicated to addressing climate variability and its impacts on water resources and infrastructure. 
+            My expertise lies in developing proactive, data-driven solutions to manage urban floods and hydrological challenges.
+          </p>
+          <!-- <h3>Academic Background</h3> -->
+          <p>
+            I hold a <strong>BSc in Civil Engineering</strong> from Kwame Nkrumah University of Science and Technology (KNUST), where I honed my skills in hydrology, environmental engineering, and GIS. 
+            Early on, I conducted research on streamflow modeling and flood mapping in the Sisa Catchment, which fueled my interest in blending data science with water management.
+          </p>
+          <!-- <h3>Research Interests</h3> -->
+          <!-- <ul>
+            <li>Hydrological modeling and climate risk assessment.</li>
+            <li>Flood resilience strategies using <strong>GeoAI</strong> and machine learning.</li>
+            <li>Developing urban flood forecasting systems using datasets like <strong>CHIRPS</strong>.</li>
+          </ul> -->
+          <!-- <h3>Key Projects</h3> -->
+          <!-- <p>
+            Currently, I’m contributing to the <strong>INUNDATA</strong> project to predict urban flash floods using machine learning and earth observation data. 
+            This work is enhancing our understanding of flood trends and paving the way for better mitigation strategies.
+          </p> -->
+          <!-- <h3>Personal Interests</h3> -->
+          <p>
+            Outside of research, I enjoy playing the guitar and keyboard-piano, exploring diverse music genres. My passion for web development drives me to create interactive applications, merging creativity with technology.
+          </p>
         </div>
-
       </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
-
       <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Christian Amoah <span id="getCurrentDate"></span></p>
-            <div class="contact-container">
-              <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <a href="mailto:chrisamoah137@gmail.com">chrisamoah137@gmail.com</a>
-              </div>
-              <div class="contact-item">
-                  <i class="fab fa-linkedin"></i>
-                  <a href="https://linkedin.com/in/christian-amoah-2167061a3" target="_blank">
-                    www.linkedin.com/in/christian-amoah-2167061a3
-                  </a>
-              </div>
-              <div class="contact-item">
-                  <i class="fab fa-github"></i>
-                  <a href="https://github.com/chrisAmh" target="_blank">github.com/chrisAmh</a>
-              </div>
-          </div>
-          </div>
-
-        </div>
+        <p>
+          <a href="mailto:chrisamoah137@gmail.com">Email</a> |
+          <a href="https://linkedin.com/in/christian-amoah-2167061a3" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/chrisAmh" target="_blank">GitHub</a>
+        </p>
       </footer>
-      
-    </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
-  </body>
-
+      <hr>
+    </div>
 </html>

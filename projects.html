@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christian Amoah's Portfolio Projects">
+    <meta name="author" content="Christian Amoah">
+
+    <title>Projects - Christian's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+      }
+
+      .page-header {
+        margin-top: 50px;
+        text-align: center;
+        color: #0077cc;
+      }
+
+      .portfolio-item img {
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 15px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .portfolio-item img:hover {
+        transform: scale(1.05);
+      }
+
+      .portfolio-item h3 {
+        font-size: 1.25rem;
+        color: #333;
+      }
+
+      .portfolio-item p {
+        font-size: 0.9rem;
+        color: #555;
+        text-align: justify;
+      }
+
+      footer {
+        margin-top: 40px;
+        padding: 20px 0;
+        background: #333;
+        color: white;
+        text-align: center;
+      }
+
+      footer a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      .pagination li a {
+        color: #0077cc;
+      }
+
+      .pagination li.active a {
+        background-color: #0077cc;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <h1></h1>
+      <h1 class="page-header">Projects & Competitions</h1>
+      <p class="text-center text-muted">
+        A showcase of my work, highlighting contributions to research, engineering, and technological advancements.
+      </p>
+
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 portfolio-item">
+          <a href="https://github.com/chrisAmh/inundata.git"><img class="img-responsive" src="http://placehold.it/700x400" alt="INUNDATA"></a>
+          <h3><a href="https://github.com/chrisAmh/inundata.git">INUNDATA: Mapping Floods in South Africa</a></h3>
+          <p>
+            Leveraging machine learning models and geospatial data to predict urban flash flood events. Key tasks included data preprocessing and model optimization to enhance prediction accuracy.
+          </p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4 portfolio-item">
+          <a href="https://github.com/chrisAmh/GeoAi.git"><img class="img-responsive" src="http://placehold.it/700x400" alt="GeoAI"></a>
+          <h3><a href="https://github.com/chrisAmh/GeoAi.git">GeoAI Agricultural Plastic Cover Mapping</a></h3>
+          <p>
+            Developed Light GBM models for mapping agricultural plastic covers using satellite imagery, contributing to sustainability initiatives in Kenya, Spain, and Vietnam.
+          </p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4 portfolio-item">
+          <a href="https://github.com/chrisAmh/IAHR_Rainfall_Data_Analysis.git"><img class="img-responsive" src="images/iahr.png" alt="IAHR"></a>
+          <h3><a href="https://github.com/chrisAmh/IAHR_Rainfall_Data_Analysis.git">Optimization of Water Treatment Plants</a></h3>
+          <p>
+            Built a water balance model using GoldSim to optimize treatment plant operations during mine closure, with Monte Carlo simulations to assess climate impact.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Project 4 -->
+        <div class="col-md-4 portfolio-item">
+          <a href="https://github.com/chrisAmh/Floodzone.git"><img class="img-responsive" src="images/fzi.png" alt="Crowdsourced Flood Mapping"></a>
+          <h3><a href="https://github.com/chrisAmh/Floodzone.git">Crowdsourced Flood Mapping App</a></h3>
+          <p>
+            Designed a real-time mapping application that utilizes social media data to track flood events in Ghana, enabling enhanced disaster response strategies.
+          </p>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="images/tz1.png" alt="Sisa Catchment Study"></a>
+          <h3>Evaluation of Activities in the Sisa Catchment</h3>
+          <p>
+            Conducted GIS and HEC-RAS analysis to assess the impact of land-use changes on flood risks, providing actionable insights for environmental management.
+          </p>
+        </div>
+
+        <!-- Placeholder for Additional Project -->
+        <div class="col-md-4 portfolio-item">
+          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400" alt="Additional Project"></a>
+          <h3>Coming Soon</h3>
+          <p>
+            Stay tuned for upcoming projects showcasing innovative solutions in hydrology and environmental engineering.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Pagination -->
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Christian Amoah</p>
+      <p>
+        <a href="mailto:chrisamoah137@gmail.com">Email</a> |
+        <a href="https://linkedin.com/in/christian-amoah-2167061a3" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/chrisAmh" target="_blank">GitHub</a>
+      </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

@@ -3,16 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Christian Amoah's Portfolio - Researcher in Water Resources and Climate Risks">
+    <meta name="author" content="Christian Amoah">
 
-    <title>Christian's Portfolio</title>
+    <title>Christian Amoah - Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <!-- Custom CSS -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
+    <style>
+      .hero {
+        background: url('images/hero-bg.jpg') no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 120px 20px;
+      }
+      .hero h1 {
+        font-size: 3em;
+        font-weight: bold;
+      }
+      .hero p {
+        font-size: 1.2em;
+        margin: 20px 0;
+      }
+      .quotes {
+        background: #f4f4f9;
+        padding: 50px 20px;
+      }
+      .quotes blockquote {
+        font-size: 1.5em;
+        font-style: italic;
+        color: #555;
+        text-align: center;
+      }
+      .quotes blockquote::before {
+        content: "“";
+        font-size: 2em;
+        color: #0077cc;
+      }
+      .quotes blockquote::after {
+        content: "”";
+        font-size: 2em;
+        color: #0077cc;
+      }
+      .quotes .author {
+        margin-top: 15px;
+        font-size: 1em;
+        color: #0077cc;
+      }
+      .research-highlights {
+        padding: 50px 20px;
+      }
+      .research-highlights h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .research-highlights p {
+        text-align: center;
+        font-size: 1.2em;
+        color: #555;
+      }
+      footer {
+        background: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        margin: 0;
+      }
+      footer a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
@@ -26,132 +94,52 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"> My Projects</a>
+          <a class="navbar-brand" href="index.html">Home</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            <li><a href="projects.html">My Projects</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
+        </div>
+      </div>
     </nav>
 
-    <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        Pioneering adaptive strategies to enhance flood resilience and foster sustainable development. 
+        <br>"Shaping a future where data-driven solutions meet water challenges."
+      </p>
+    </div>
 
-      <div class="row">
+    <!-- Research Highlights -->
+    <div class="research-highlights">
+      <h2>Research Highlights</h2>
+      <p>
+        My research focuses on urban flood forecasting, hydrological modeling, and leveraging GeoAI to solve water resource challenges.
+        <br> By integrating innovative computational tools, I aim to create sustainable, data-driven solutions to climate risks.
+      </p>
+    </div>
 
-        <div class="col-lg-12">
-          <h1 class="page-header">Projects <small></small></h1>
-        </div>
+    <!-- Quotes Section -->
+    <div class="quotes">
+      <blockquote>
+        "The best way to predict the future is to create it." 
+        <div class="author">- Peter Drucker</div>
+      </blockquote>
+    </div>
 
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="https://github.com/chrisAmh/inundata.git">INUNDATA: Mapping Floods in South Africa</a></h3>
-          <p>Participating in a research initiative addressing urban and rural flood risks in South Africa, focusing on building a machine learning model to predict the precise day of urban flash flood occurrences. Key tasks included:
-            Utilizing CHIRPS daily precipitation data and composite earth observation imagery for flood event detection.</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive"src="http://placehold.it/700x400"></a>
-          <h3><a href="https://github.com/chrisAmh/GeoAi.git">GeoAi Agricultural Plastic Cover Mapping with Satellite Imagery</a></h3>
-          <p>Participated in the AI for Good initiative to address environmental concerns related to agricultural plastic use.
-            Developed machine learning (Light GBM) model for mapping agricultural plastic covers using freely available satellite data.
-            Implemented indices methods to engineer features for handling agricultural plastic covers on land-use in Kenya, Spain, and Vietnam.</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="images/iahr.png"></a>
-          <h3><a href="https://github.com/chrisAmh/IAHR_Rainfall_Data_Analysis.git">Optimization of Water Treatment Plants for Mine Closure (Gold Sim Approach)</a></h3>
-          <p>Developed a detailed water balance model to determine the number of treatment plants required to close a mine site within five years.
-            Conducted Monte Carlo simulations to evaluate different water treatment arrangements with a minimum 70% probability of success.
-            Assessed climate change trends and their impact on the water balance model</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="images/fzi.png"></a>
-          <h3><a href="https://github.com/chrisAmh/Floodzone.git">Crowdsourced Flood Mapping Web Application</a></h3>
-          <p>Aim to track the real-time impact of floods on transportation networks using flood-related hashtags in Ghana.
-            Provide real-time map updates of flood-prone areas, during extreme weather events.
-            Implement sentiment analysis from social media data to understand public perceptions of disruptions due to flooding.</p>
-        </div>
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="images/tz1.png"></a>
-          <h3><a href="#project-link">Evaluation of the Impact of Activities in the Sisa Catchment on Sisa Stream</a></h3>
-          <p>Employed HEC-RAS to model stream flow and analyze flood risks.
-            Conducted land-cover analysis using GIS to map and assess the impact of land-use changes on the stream.
-            Identified significant changes in land use patterns contributing to increased flood risks.</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link"></a></h3>
-          <p></p>
-        </div>
-
-
-      </div>
-
-      <hr>
-
-      <div class="row text-center">
-        
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="#">&laquo;</a></li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="about.html">&raquo;</a></li>
-          </ul>        
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
-
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Christian  Amoah <span id="getCurrentDate"></span></p>
-            <div class="contact-container">
-              <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <a href="mailto:chrisamoah137@gmail.com">chrisamoah137@gmail.com</a>
-              </div>
-              <div class="contact-item">
-                  <i class="fab fa-linkedin"></i>
-                  <a href="https://linkedin.com/in/christian-amoah-2167061a3" target="_blank">
-                    www.linkedin.com/in/christian-amoah-2167061a3
-                  </a>
-              </div>
-              <div class="contact-item">
-                  <i class="fab fa-github"></i>
-                  <a href="https://github.com/chrisAmh" target="_blank">github.com/chrisAmh</a>
-              </div>
-          </div>
-          </div>
-        </div>
-      </footer>
-      
-    </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Christian Amoah</p>
+      <p>
+        <a href="mailto:chrisamoah137@gmail.com">Email</a> |
+        <a href="https://linkedin.com/in/christian-amoah-2167061a3" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/chrisAmh" target="_blank">GitHub</a>
+      </p>
+    </footer>
   </body>
-
 </html>
